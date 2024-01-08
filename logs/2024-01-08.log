@@ -1,3 +1,627 @@
 [2024-01-08 09:12:45,772 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
 [2024-01-08 09:16:56,652 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
 [2024-01-08 09:16:59,659 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:30,873 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 09:21:35,745 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:38,751 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:41,756 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:44,760 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:47,766 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:50,770 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:53,773 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:56,779 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:21:59,785 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:22:02,789 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:22:05,794 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:23:39,256 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 09:23:44,210 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 09:23:47,503 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 09:23:54,313 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:23:57,318 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:00,320 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:03,325 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:06,329 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:09,333 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:12,338 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:15,343 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:18,350 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:21,353 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:24,358 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:27,362 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:24:30,368 (main.py:98 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 09:48:05,206 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:05:08,068 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:27:38,291 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:43:32,835 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:44:27,576 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:44:33,066 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:44:35,315 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:46:36,373 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:46:39,219 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:46:42,544 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:49:39,539 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:49:43,338 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:49:45,661 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:49:55,746 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:53:39,163 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:58:25,238 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:58:27,538 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:33,173 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:34,371 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:35,726 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:45,839 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:50,204 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:52,436 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 10:59:54,726 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:02:39,712 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:02:40,918 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:02:42,674 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:04:21,297 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:04:23,549 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:10:23,820 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:10:25,622 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:10:41,050 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:10:44,870 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:13:28,358 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:13:40,717 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:13:43,722 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:13:46,726 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:13:49,734 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:13:52,742 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:13:55,747 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:13:58,749 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:01,754 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:04,757 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:15,235 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:14:27,318 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:30,324 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:33,331 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:36,335 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:39,343 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:42,348 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:45,354 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:48,358 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:51,363 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:14:54,364 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 11:15:01,161 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:16:50,820 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:16:53,627 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:16:56,970 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:19:51,882 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:19:54,154 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:19:56,399 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:34:42,347 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:34:48,353 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:34:51,146 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:35:35,313 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:43:33,843 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:43:34,634 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:45:54,876 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:45:57,246 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 11:47:58,904 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f40cc1ed1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f409cf926a0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-08 12:04:32,351 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:06:27,422 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:06:30,321 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:06:32,180 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:12:16,609 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:12:20,495 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:12:23,829 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:13:10,506 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:13:13,287 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:14:53,922 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:14:56,806 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:19:02,304 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f65f2d62280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f65c43082b0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-08 12:20:09,139 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:20:12,440 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:20:28,324 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:20:30,640 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:21:04,483 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:21:09,320 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:22:17,111 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:22:20,533 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:03,686 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:14,284 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:16,535 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:18,894 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:35,278 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:37,592 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:44,564 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:23:46,818 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:19,408 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:22,168 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:24,446 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:28,929 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:31,293 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:51,864 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:55,165 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:24:56,903 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:26:58,636 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:27:01,997 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:27:20,644 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:28:48,464 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:28:51,224 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:28:52,935 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:30:23,139 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 12:30:25,966 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:37:12,109 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:38:29,416 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:38:29,527 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f915821e280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f9128fc4640>,), {})] Process died (Message: list index out of range)
+[2024-01-08 13:38:34,093 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:38:34,201 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f915821e280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f9128fc4a60>,), {})] Process died (Message: list index out of range)
+[2024-01-08 13:38:36,337 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:38:36,440 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f915821e280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f91287619a0>,), {})] Process died (Message: list index out of range)
+[2024-01-08 13:38:43,311 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:38:43,421 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f915821e280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f9128761250>,), {})] Process died (Message: list index out of range)
+[2024-01-08 13:42:53,093 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:42:56,385 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:42:58,212 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:55:10,232 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 13:55:12,454 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:46:21,743 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f466d896280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f46406462e0>,), {})] Process died (Message: list index out of range)
+[2024-01-08 14:46:55,940 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:51:01,842 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:51:04,626 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:51:06,372 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:58:45,628 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:58:52,620 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 14:58:54,405 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:10:32,665 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:10:34,937 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:10:37,213 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:12:09,187 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:12:27,148 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:13:27,015 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:13:36,578 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:14:12,319 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:14:16,107 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 15:14:22,498 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:05:08,516 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:06:44,470 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:09:14,692 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7fada0cd01f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fad74280640>,), {})] Process died (Message: 'ProcessHandle' object has no attribute 'updateRobotkMission')
+[2024-01-08 16:10:28,016 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:10:30,881 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:10:50,338 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:10:53,390 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:11:30,904 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f0eab8051f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f0e7c5a92b0>,), {})] Process died (Message: 'ProcessHandle' object has no attribute 'updateRobotkMission')
+[2024-01-08 16:12:25,067 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:12:28,876 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:21:22,014 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:21:24,349 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:32:06,289 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:35:09,765 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:35:10,495 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:36:50,743 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:36:53,224 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:37:53,621 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:37:55,349 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:41:21,612 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:41:23,334 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:41:24,550 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:42:29,175 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:42:30,926 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:42:32,680 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:43:21,599 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:43:23,331 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:43:24,759 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:44:19,920 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:44:21,672 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:44:23,572 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:44:42,585 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:44:44,420 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:45:30,731 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:45:31,970 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:46:00,943 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:46:02,708 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:46:03,942 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:46:25,601 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:46:26,292 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:46:27,186 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:49:48,087 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:49:50,337 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:49:52,053 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:51:54,757 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 16:52:01,085 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:52:02,807 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:53:27,878 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:53:29,085 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:54:53,646 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:54:55,519 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:57:08,842 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:57:10,160 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:58:06,425 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:58:07,708 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:59:15,494 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 16:59:16,729 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:00:16,964 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:00:18,205 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:00:59,474 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:01:00,662 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:01:52,615 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:01:53,821 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:06:45,976 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:06:48,732 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:06:48,981 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:06:51,619 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:06:51,987 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:06:53,362 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:06:54,564 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:06:54,989 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:06:56,880 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:06:57,994 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:00,998 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:04,000 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:07,005 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:10,010 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:13,015 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:16,021 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:19,026 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:22,028 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:25,033 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:28,040 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:31,044 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:34,051 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:37,056 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:40,063 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:43,066 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:46,072 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:50,143 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:52,067 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:07:53,148 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:53,660 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:07:55,393 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:07:56,154 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:07:58,712 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:07:59,160 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:02,166 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:05,169 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:08,174 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:11,179 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:14,186 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:16,065 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:17,189 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:20,192 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:23,197 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:26,203 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:29,205 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:32,210 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:35,213 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:37,137 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:38,829 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:40,049 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:40,142 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:42,061 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:42,742 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:43,145 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:43,430 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:45,160 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:46,151 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:46,893 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:49,158 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:52,163 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:55,166 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:57,046 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:08:58,172 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:08:59,962 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:09:01,179 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:04,184 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:07,190 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:10,194 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:10,582 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:09:13,200 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:16,204 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:19,211 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:22,218 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:25,223 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:28,227 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:31,230 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:34,234 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:37,240 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:40,244 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:43,250 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:46,256 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:49,263 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:52,269 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:55,273 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:09:59,011 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:02,014 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:03,207 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:10:05,020 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:08,026 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:11,032 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:14,038 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:17,044 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:10:20,049 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:25,511 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:12:28,762 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:30,846 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:12:31,766 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:34,770 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:35,140 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:12:37,774 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:40,777 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:43,783 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:46,786 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:49,789 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:52,794 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:56,874 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:12:58,940 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:12:59,879 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:02,883 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:05,886 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:08,893 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:11,898 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:14,904 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:17,910 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:21,184 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:22,783 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:13:24,191 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:27,196 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:30,202 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:33,206 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:36,212 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:39,218 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:42,224 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:45,229 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:48,236 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:51,242 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:54,249 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:13:57,255 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:00,257 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:03,264 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:06,271 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:09,272 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:12,276 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:15,282 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:18,284 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:21,291 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:24,297 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:27,303 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:30,309 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:35,021 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:37,459 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:14:38,026 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:39,876 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:14:41,031 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:44,034 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:47,036 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:50,040 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:53,045 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:56,049 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:14:59,055 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:02,061 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:05,066 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:08,450 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:11,453 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:11,752 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:15:14,458 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:17,464 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:20,469 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:23,474 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:26,481 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:29,486 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:32,493 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:35,499 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:38,506 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:41,513 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:44,518 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:47,523 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:50,529 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:53,533 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:56,539 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:15:59,543 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:02,546 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:05,552 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:08,557 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:11,562 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:14,567 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:17,574 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:20,580 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:23,586 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:26,593 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:29,599 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:32,603 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:35,609 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:38,614 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:41,620 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:44,626 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:47,632 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:50,638 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:53,643 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:56,648 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:16:59,653 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:02,658 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:05,663 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:08,649 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:10,670 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:17:11,655 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:14,022 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:17:14,660 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:17,666 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:20,672 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:23,678 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:26,682 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:29,688 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:32,694 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:35,698 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:38,704 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:41,709 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:44,714 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:47,718 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:50,725 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:53,731 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:56,736 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:17:59,743 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:02,746 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:05,753 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:08,757 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:11,764 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:14,769 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:17,775 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:20,782 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:23,788 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:26,793 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:29,800 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:32,804 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:35,810 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:38,815 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:41,822 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:44,828 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:47,833 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:50,838 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:53,844 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:56,849 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:18:59,855 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:02,861 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:05,866 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:08,869 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:11,874 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:14,880 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:17,886 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:20,892 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:23,898 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:26,901 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:29,906 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:32,912 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:35,917 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:38,952 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:41,958 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:44,964 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:47,970 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:50,976 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:53,982 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:56,989 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:19:59,994 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:02,999 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:06,004 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:09,010 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:12,015 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:15,021 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:18,025 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:21,030 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:24,035 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:27,041 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:30,048 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:33,053 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:36,060 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:39,065 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:42,070 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:45,074 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:48,080 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:51,086 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:54,091 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:20:57,097 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:00,102 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:00,858 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:03,108 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:03,145 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:06,114 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:06,952 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:08,668 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:09,120 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:11,048 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:12,125 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:15,128 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:18,134 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:21,136 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:24,141 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:27,146 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:30,150 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:31,598 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:33,153 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:33,322 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:21:36,158 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:39,163 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:42,169 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:45,174 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:48,176 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:51,182 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:54,186 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:21:57,189 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:00,191 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:03,197 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:06,202 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:09,207 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:12,211 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:15,217 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:18,222 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:21,225 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:24,232 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:27,235 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:30,242 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:33,248 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:36,251 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:39,257 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:43,122 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:45,418 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:22:46,128 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:47,730 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:22:49,132 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:52,138 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:22:55,145 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:26,693 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:29,390 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:23:29,697 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:31,178 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:23:32,443 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:23:32,701 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:33,754 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:23:35,620 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:23:35,706 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:38,710 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:41,714 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:44,717 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:47,721 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:50,725 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:53,730 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:56,734 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:23:59,737 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:02,742 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:05,746 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:08,751 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:11,757 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:14,762 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:17,767 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:20,770 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:23,774 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:26,778 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:53,453 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:55,630 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:24:56,459 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:57,897 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:24:59,464 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:24:59,729 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:00,456 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:02,471 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:03,788 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:05,473 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:05,574 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:08,477 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:11,482 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:14,487 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:17,495 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:20,502 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:23,507 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:26,508 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:29,515 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:32,521 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:36,706 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:38,766 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:39,710 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:41,529 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:42,705 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:42,713 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:43,366 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:44,080 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:44,904 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:25:45,718 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:48,722 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:51,726 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:54,729 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:25:57,732 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:28:02,794 (/home/mm/Documents/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:28:05,649 (/home/mm/Documents/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:28:09,579 (/home/mm/Documents/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:28:37,023 (/home/mm/Documents/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:30:06,083 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:31:13,215 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:31:14,943 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'

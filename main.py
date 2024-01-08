@@ -8,8 +8,7 @@ from utils.vntime import VnDateTime
 from app.database.handle import DatabaseHandle
 from app.database.model.user import USER_ROLE
 from DAL.main import DALServer
-from DAL.gateway.handle import GatewayHandle
-from DAL.gateway.apis import API_TriggerTask
+from DAL.HARDWARE.handle import GatewayHandle
 from app import FlaskApp
 import requests
 import yaml

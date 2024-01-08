@@ -100,29 +100,6 @@ class DALServer(metaclass=Singleton):
             #         self.__rcs.pop(mission_id)
             sleep(3)
 
-    # Trigger
-
-    def onRcsCallback(self, data: dict):
-        """
-        data: {
-            "method": str
-            "robotCode": str
-            "taskCode": str
-        }
-        """
-        # json = {
-        #     "method": str
-        #     "robotCode": str
-        #     "taskCode": str
-        # }
-        print("rcs task", data)
-        for mission_id in self.__rcs:
-            if self.__rcs[mission_id].rcs_task_id == data["taskCode"]:
-                self.__rcs[mission_id].onRcsCallback(
-                    data["taskCode"], data["robotCode"]
-                )
-                break
-
     def get_token_key(self):
         return self.__token_value
 

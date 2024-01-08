@@ -22,7 +22,7 @@ CFG_RCS:
   cancel: /cancelTask
   query_status: /queryTaskStatus
   type: RCS
-  url: https://b605d738-da38-4fd3-96d5-e39b021b929e.mock.pstmn.io
+  url: http://192.168.1.237:5000
 CFG_SERVER:
   host: 192.168.1.237
   port: 8080

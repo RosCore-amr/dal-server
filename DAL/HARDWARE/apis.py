@@ -14,7 +14,7 @@ class TRIGGER_TYPE(Custom_Enum):
     PRIOR = "prior"
 
 
-class API_TriggerTask(ApiBase):
+class CallBox_TriggerTask(ApiBase):
     urls = ("/trigger",)
 
     def __init__(self) -> None:
@@ -46,7 +46,7 @@ class API_TriggerTask(ApiBase):
         args = ["gateway_id", "plc_id", "timestamp", "tasks"]
         data = self.jsonParser(args, args)
         self.__token_value = self.__dal.get_token_key()
-        print("data button 1", data)
+        # print("data button 1", data)
         request_body = data
         try:
             res = requests.patch(
@@ -57,7 +57,30 @@ class API_TriggerTask(ApiBase):
             )
             reponse = res.json()
             # print("reponse api getway ", reponse)
-            # mission_task = self.__dal.trigger_mission(reponse)
+            mission_task = self.__dal.trigger_mission(reponse)
         except Exception as e:
             print("erroor 404")
         return ApiBase.createResponseMessage()
+
+
+class PDA_TriggerTask(ApiBase):
+    urls = ("/pda/trigger",)
+
+    def __init__(self) -> None:
+        self.__dal = DALServer()
+        return super().__init__()
+
+    @ApiBase.exception_error
+    def post(self):
+        """
+        ```
+        request: {
+            "mission_id": int
+        }
+        ```
+        """
+        args = ["mission_id"]
+        data = self.jsonParser(args, args)
+        print("pda data", data)
+        # self.__dal.onMissionCancel(data["mission_id"])
+        return ApiBase.createResponseMessage({})
