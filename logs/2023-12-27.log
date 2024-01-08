@@ -1,0 +1,2 @@
+[2023-12-27 09:21:06,134 (J:\Projects\IoT_System\Server\DAL\RCS\handle.py:413 - getScannerCode())] ERROR -> [MySQL] No scanner callbox (id=0)
+[2023-12-27 09:26:46,467 (J:\Projects\IoT_System\Server\DAL\RCS\handle.py:413 - getScannerCode())] ERROR -> [MySQL] No scanner callbox (id=0)

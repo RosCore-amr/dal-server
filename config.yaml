@@ -1,0 +1,39 @@
+CFG_MQTT:
+  host: 192.168.1.170
+  pass: rostek2019
+  port: 1883
+  type: MQTT
+  user: rostek
+CFG_MYSQL:
+  host: 127.0.0.1
+  pass: rostek2019
+  port: 3306
+  scheme: seehan
+  type: MYSQL
+  user: rostek
+CFG_RCS:
+  continue: /continueTask
+  pod_code_prefix: 1F
+  query: /queryPodBerthAndMat
+  resume: /resumeRobot
+  stop: /stopRobot
+  storage_area_code: FGWH
+  task: /genAgvSchedulingTask
+  cancel: /cancelTask
+  query_status: /queryTaskStatus
+  type: RCS
+  url: https://b605d738-da38-4fd3-96d5-e39b021b929e.mock.pstmn.io
+CFG_SERVER:
+  host: 192.168.1.237
+  port: 8080
+CFG_DB:
+  name: minhpq
+  pass: minhpq
+  url: http://20.198.241.249:3100/
+  # url: http://192.168.1.206:3100/
+  callbox: call_boxes/
+  login: auth/login
+  status: call_boxes/update_status_connect/dal
+  action: call_boxes/update_status_action/dal
+  mission_change : mission_history
+  mission_info: mission_history/list
