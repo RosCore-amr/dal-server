@@ -625,3 +625,53 @@
 [2024-01-08 17:30:06,083 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
 [2024-01-08 17:31:13,215 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
 [2024-01-08 17:31:14,943 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:36:31,990 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:36:34,762 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:36:36,524 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:40:48,582 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:40:50,825 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:40:52,669 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:51:44,692 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:51:46,537 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:51:48,395 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:52:07,968 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:57:16,976 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:57:18,745 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:57:20,559 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-08 17:57:26,521 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:29,526 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:32,532 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:35,538 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:38,542 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:41,550 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:44,556 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:47,563 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:50,569 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:53,574 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:56,579 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:57:59,585 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:02,590 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:05,595 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:08,601 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:11,608 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:14,613 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:17,617 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:20,623 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:23,626 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:26,630 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:29,635 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:32,638 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:35,644 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:38,651 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:41,661 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:44,666 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:47,673 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:50,679 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:53,686 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:56,698 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:58:59,704 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:59:02,716 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:59:05,722 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:59:08,727 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:59:11,733 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-08 17:59:14,737 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use

@@ -1,0 +1,37 @@
+[2024-01-09 11:17:10,765 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 11:33:36,416 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 11:39:02,751 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 11:39:05,109 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 11:39:12,600 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:15,605 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:18,609 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:21,615 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:24,622 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:27,628 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:30,633 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:33,636 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:36,640 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:39:39,646 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-09 11:59:16,235 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 11:59:20,438 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 11:59:26,955 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 11:59:47,036 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 12:00:13,601 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 12:00:28,860 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 12:00:53,135 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 12:05:06,067 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: <SECTORS_TYPE.PRIOR: 'prior'>
+[2024-01-09 12:14:56,117 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 13:52:45,705 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 13:59:24,120 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:00:04,283 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7eff47531430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7eff182df220>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-09 14:00:42,238 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:00:45,702 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:00:48,156 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:01:27,660 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:01:30,431 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:01:44,245 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:02:02,941 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:02:07,301 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:04:00,510 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f259e44c430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2570197220>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-09 14:13:40,116 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 14:13:44,483 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'

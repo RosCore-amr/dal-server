@@ -124,17 +124,17 @@ class ProcessHandle:
                     self.updateTaskMission(self.__mission_name, task_code_)
                     _state = MainState.WAIT_PROCESS
             elif _state == MainState.WAIT_PROCESS:
-                # _processing_task = self.queryTaskStatus(task_code_)
-                # print("_processing_task", _processing_task)
+                _processing_task = self.queryTaskStatus(task_code_)
                 # Wait for agv id
-                if not self.__agv:
-                    continue
-                if not self.updateStatusMission(
-                    self.__mission_name, MissionStatus.PROCESS
-                ):
+                if _processing_task == TaskStatus.EXECUTING:
                     _state = MainState.PROCESSING
 
+                if not self.__agv:
+                    continue
+                _state = MainState.PROCESSING
+
             elif _state == MainState.PROCESSING:
+                self.updateStatusMission(self.__mission_name, MissionStatus.PROCESS)
                 _processing_task = self.queryTaskStatus(task_code_)
                 if not _processing_task:
                     _state = MainState.DONE
@@ -145,7 +145,6 @@ class ProcessHandle:
                 #     _state = MainState.CANCEL
                 # _state = MainState.DONE
             elif _state == MainState.DONE:
-                time.sleep(3)
                 if not self.updateStatusMission(
                     self.__mission_name, MissionStatus.DONE
                 ):
@@ -333,11 +332,3 @@ class ProcessHandle:
         Generate identical request code for rcs api
         """
         return f"iot-{api_name}-{self.__mission_name}-{int(VnTimestamp.now())}"
-
-    def onRcsCallback(self, rcs_task_id: str, agv_code: str):
-        """
-        Receive stop task callback from agv
-        """
-        if not self.__agv:
-            self.__agv = agv_code
-        self.__rcs_callback_task_id = rcs_task_id

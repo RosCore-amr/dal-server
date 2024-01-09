@@ -26,8 +26,8 @@ class CallboxServer:
         # LICENSE
         import uuid
 
-        if uuid.getnode() != THIS_PC_MAC_ID or self.token_key is None:
-            exit(code=-1)
+        # if uuid.getnode() != THIS_PC_MAC_ID or self.token_key is None:
+        #     exit(code=-1)
 
         ThreadPool(7)
         self.flask = FlaskApp()

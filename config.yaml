@@ -32,6 +32,7 @@ CFG_DB:
   url: http://20.198.241.249:3100/
   # url: http://192.168.1.206:3100/
   callbox: call_boxes/
+  callbox_info: call_boxes/list
   login: auth/login
   status: call_boxes/update_status_connect/dal
   action: call_boxes/update_status_action/dal
