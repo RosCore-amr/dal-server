@@ -76,77 +76,9 @@ class GatewayHandle(Mqtt, metaclass=Singleton):
 
     # Callback
     def __onError(self, message: str):
-        """
-        On receive error message from gateway
-        * Log error
-        * Update plc in database
-        * Send sync message
-
-        Error message:
-        {
-            id (int): log id in database (send it back to delete row)
-            type(string): error
-            deviceId: <id_of_gateway>_<id_of_plc>
-            module (string): error module
-            timestamp(int) utc time
-            code (int): error code
-            desc (string): error description
-            gateway_id(string): gateway serial number
-        }
-        """
-        # Read message
-        # error_msg = json.loads(message)
-        # gateway_id = error_msg["gateway_id"]
-        # plc_id = error_msg["deviceId"].split("_")[1]
-
-        # # Check if gateway and plc exist
-        # with self.__app.app_context():
-        #     callboxes = self.__db.callbox.find(
-        #         gateway_id=gateway_id, plc_id=plc_id
-        #     ).all()
-        #     if not callboxes:
-        #         return
-
-        # # Log error
-        # Logger().error(
-        #     f"[{ERROR_MODULE.GATEWAY.value}-{gateway_id}] "
-        #     f"{error_msg['code']} - {error_msg['desc']}"
-        # )
-
-        # # Send message
-        # sync_msg = GatewaySyncMessage()
-        # sync_msg.setParam(error_msg["id"], error_msg["deviceId"])
-        # self.__sendSync(sync_msg)
         pass
 
     def __sendSync(self, msg: GatewaySyncMessage) -> bool:
-        """
-        Try to send sync message to gateway. Max 5s (10 times).
-
-        Return -> True if succeed
-        """
-        # c = 0
-        # while True:
-        #     # Publish
-        #     res, mid = self.publish(msg.topic, msg.createMessage())
-        #     if res == MQTT_ERR_SUCCESS:
-        #         return True
-
-        #     # Check connection
-        #     if res == MQTT_ERR_NO_CONN:
-        #         Logger().error(
-        #             f"[{ERROR_MODULE.BROKER.value}] Disconnected from mqtt server"
-        #         )
-        #         return False
-
-        #     # Check timeout
-        #     c += 1
-        #     if c > 10:
-        #         Logger().error(
-        #             f"[{ERROR_MODULE.BROKER.value}] Timout while send sync message"
-        #         )
-        #         return False
-        #     sleep(0.5)
         pass
 
     def __onUptime(self, message: str):

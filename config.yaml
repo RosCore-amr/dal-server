@@ -12,17 +12,18 @@ CFG_MYSQL:
   type: MYSQL
   user: rostek
 CFG_RCS:
-  continue: /continueTask
+  continue: continueTask
   pod_code_prefix: 1F
-  query: /queryPodBerthAndMat
-  resume: /resumeRobot
-  stop: /stopRobot
+  query: queryPodBerthAndMat
+  resume: resumeRobot
+  stop: stopRobot
   storage_area_code: FGWH
-  task: /genAgvSchedulingTask
-  cancel: /cancelTask
-  query_status: /queryTaskStatus
+  task: genAgvSchedulingTask
+  cancel: cancelTask
+  query_status: queryTaskStatus
+  mockup_list: mockupList
   type: RCS
-  url: http://192.168.1.237:5000
+  url: http://192.168.1.237:5000/
 CFG_SERVER:
   host: 192.168.1.237
   port: 8080

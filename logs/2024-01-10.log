@@ -1,0 +1,59 @@
+[2024-01-10 10:08:42,495 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 10:09:33,973 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7fcdd4902550>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fcda86685e0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 10:11:29,132 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f59b4772550>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f59884b8220>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 10:45:21,382 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 10:45:29,848 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f362c138550>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f35fc688b20>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 10:51:50,392 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 11:24:14,463 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 11:24:16,706 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 15:40:43,210 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:41:45,371 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:41:47,210 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:45:08,665 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:45:10,395 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:45:11,628 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:45:12,331 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:45:14,116 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:45:54,727 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:46:00,716 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:46:02,560 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:46:07,554 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:46:10,312 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:46:14,689 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:46:17,023 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:46:37,212 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f56670d7430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f563867aa30>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 16:46:40,936 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 16:48:26,665 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f56670d7430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f563867a910>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 16:52:21,675 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:52:24,682 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:52:27,689 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:52:30,693 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:07,229 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:10,235 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:13,239 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:16,241 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:19,246 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:22,250 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:25,254 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:28,259 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:31,261 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:34,266 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:37,271 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:40,274 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:43,278 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:46,285 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:49,291 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:52,297 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:55,302 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:53:58,308 (main.py:97 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-10 16:54:17,581 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7fbbed2cd3a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fbbc0075430>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 16:56:49,345 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 17:02:41,286 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f52170222e0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:02:52,078 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f52147cb580>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:05:44,653 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f5214795c40>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:14:28,524 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f5214732d90>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:15:25,140 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f521478f520>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:16:06,613 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f5214782a90>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:25:25,952 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f5242a253a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f5214732b50>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-10 17:29:42,884 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-10 17:39:35,076 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'

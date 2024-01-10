@@ -52,7 +52,6 @@ class API_RCSCallback(ApiBase):
             response = res.json()
             if response["code"] != "0":
                 return None
-
             return response["code"]
         except Exception as e:
             print("error update AGV")

@@ -1,7 +1,6 @@
 from utils.threadpool import Worker
 from utils.vntime import VnTimestamp, VnDateTime
 from utils.logger import Logger
-from app.database.handle import DatabaseHandle
 from app.database.model.history import (
     DB_Mission,
     MISSION_STATUS,
@@ -12,6 +11,7 @@ from app.database.model.setting import PRODUCT_TYPE
 from .config import RCS_TASK_CODE, RCS_PRIOR_CODE
 from .config import MainState, TaskStatus, SignalCallbox, MissionStatus
 
+# from DAL.main import DALServer
 from flask import Flask
 import requests
 
@@ -65,6 +65,7 @@ class ProcessHandle:
         self.__rcs_callback_task_id = ""
         self.rcs_task_id = ""
         self.line_to_confirm = ""
+        self.__name_call = "None"
         self.__token_value = token_key
         self.__db_cfg = db_cfg
         self.__url_db = self.__db_cfg["url"]
@@ -90,15 +91,22 @@ class ProcessHandle:
         while _state != MainState.NONE:
             if _state != _prev_state:
                 print(
-                    "STATE {}: {} -> {}".format(
-                        self.__mission["mission_code"], _prev_state.name, _state.name
+                    "Object call {} {}: {} -> {}".format(
+                        self.__name_call,
+                        self.__mission["mission_code"],
+                        _prev_state.name,
+                        _state.name,
                     )
                 )
                 _prev_state = _state
-            self.missioncheck()
 
-            if self._cancel_status:
-                _state = MainState.PROCESS_CANCEL
+            mission_status = self.missioncheck()
+            if mission_status == MissionStatus.CANCEL:
+                _state = MainState.CANCEL
+            elif mission_status == MissionStatus.DONE:
+                _state = MainState.DONE
+            else:
+                pass
 
             if _state == MainState.INIT:
                 if (
@@ -111,62 +119,74 @@ class ProcessHandle:
                 if self.__mission["code"] == SignalCallbox.SIGN_SUCCESS:
                     _state = MainState.CREATE_TASK
                 if self.__mission["code"] == SignalCallbox.CANCEL_SUCCESS:
-                    _state = MainState.CANCEL
+                    _state = MainState.PROCESS_CANCEL
             elif _state == MainState.CREATE_TASK:
                 _path = [
                     self.__mission["pickup_location"],
                     self.__mission["return_location"],
                 ]
                 task_code_ = self.sendTask(_path, RCS_TASK_CODE.UPSTAIR, False)
-                # print("task code", task_code_)
                 if task_code_ is not None:
                     print("task_code_", task_code_)
                     self.updateTaskMission(self.__mission_name, task_code_)
                     _state = MainState.WAIT_PROCESS
             elif _state == MainState.WAIT_PROCESS:
-                _processing_task = self.queryTaskStatus(task_code_)
+                _processing_task = self.queryTaskStatus(
+                    task_code_, TaskStatus.EXECUTING
+                )
                 # Wait for agv id
                 if _processing_task == TaskStatus.EXECUTING:
                     _state = MainState.PROCESSING
 
-                if not self.__agv:
-                    continue
-                _state = MainState.PROCESSING
+                if self.__agv:
+                    _state = MainState.PROCESSING
 
             elif _state == MainState.PROCESSING:
                 self.updateStatusMission(self.__mission_name, MissionStatus.PROCESS)
-                _processing_task = self.queryTaskStatus(task_code_)
-                if not _processing_task:
+                _processing_task = self.queryTaskStatus(task_code_, TaskStatus.COMPLETE)
+                if _processing_task == TaskStatus.COMPLETE:
                     _state = MainState.DONE
-                # if _processing_task["taskStatus"] == TaskStatus.COMPLETE :
-                # if not self._cancel_status:
-                #     _state = MainState.DONE
-                # else:
-                #     _state = MainState.CANCEL
-                # _state = MainState.DONE
-            elif _state == MainState.DONE:
+
+            elif _state == MainState.DONE_PROCESS:
                 if not self.updateStatusMission(
                     self.__mission_name, MissionStatus.DONE
                 ):
-                    _state = MainState.NONE
+                    _state = MainState.DONE
+
+            elif _state == MainState.PROCESS_CANCEL:
+                if not self.__mission["mission_rcs"]:
+                    if not self.updateStatusMission(
+                        self.__mission_name, MissionStatus.CANCEL
+                    ):
+                        _state = MainState.CANCEL
+                else:
+                    if (
+                        self.cancelTask(
+                            self.__mission["mission_rcs"],
+                            self.__mission["pickup_location"],
+                        )
+                        is not None
+                    ):
+                        self.updateStatusMission(
+                            self.__mission_name, MissionStatus.CANCEL
+                        )
+                        _state = MainState.CANCEL
 
             elif _state == MainState.CANCEL:
-                if not self.updateStatusMission(
-                    self.__mission_name, MissionStatus.CANCEL
-                ):
-                    _state = MainState.NONE
-            elif _state == MainState.PROCESS_CANCEL:
                 _state = MainState.NONE
+
+            elif _state == MainState.DONE:
+                _state = MainState.NONE
+
         print("=========================================================")
 
     def missioncheck(self):
         response = self.checkMissionDB(self.__mission["mission_code"])
         self.__agv = response["metaData"][0]["robot_code"]
         mission_rcs = response["metaData"][0]["mission_rcs"]
-        # if not mission_rcs:
+        self.__name_call = response["metaData"][0]["object_call"]
         mission_status = response["metaData"][0]["current_state"]
-        if mission_status == MissionStatus.CANCEL:
-            self._cancel_status = True
+        return mission_status
 
     def checkMissionDB(self, misson_code_):
         request_body = {"filter": {"mission_code": misson_code_}}
@@ -220,10 +240,11 @@ class ProcessHandle:
         except Exception as e:
             print("error update task mission")
 
-    def queryTaskStatus(self, task_code_):
+    def queryTaskStatus(self, task_code_, status):
         request_body = {
             "reqCode": self.__getRequestCode("query_Task"),
             "taskCodes": task_code_,
+            "typeTask": status,
         }
         try:
             res = requests.post(
@@ -256,16 +277,11 @@ class ProcessHandle:
             )
             response = res.json()
             if not response:
-                # self.logError("Send task failed with no response",
-                #               Request=request_body, Status=res.status_code)
                 return None
             if response["code"] != "0":
-                # self.logError("Send task failed",
-                #               Request=request_body,
-                #               Response=response["message"])
                 return None
-
-            return response["reqCode"]
+            # print("response", response)
+            return response
         except Exception as e:
             return None
 

@@ -36,6 +36,7 @@ class MainState(Enum):
     CANCEL = 4
     PROCESS_CANCEL = 5
     DONE = 6
+    DONE_PROCESS = 7
 
 
 class TaskStatus:

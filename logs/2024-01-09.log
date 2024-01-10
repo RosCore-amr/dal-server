@@ -35,3 +35,64 @@
 [2024-01-09 14:04:00,510 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f259e44c430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2570197220>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
 [2024-01-09 14:13:40,116 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
 [2024-01-09 14:13:44,483 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 15:57:29,779 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-09 15:57:36,513 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 15:57:50,106 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: createResponseMessage() missing 1 required positional argument: 'data'
+[2024-01-09 16:00:01,451 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-09 16:00:01,742 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f3641d7f430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f36142d7910>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-09 16:07:01,168 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f3641d7f430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f3614324fa0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-09 17:13:27,465 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f3641d7f430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f3614296370>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-09 17:19:58,743 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7fb658af3550>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fb62c09c6a0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-09 17:20:45,306 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:20:48,311 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:20:51,315 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:20:54,322 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:20:57,328 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:00,333 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:03,340 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:06,346 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:09,352 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:12,356 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:15,362 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:18,368 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:21,375 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:24,380 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:27,388 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:30,393 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:33,399 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:36,406 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:39,412 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:42,416 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:45,421 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:48,428 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:51,435 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:54,440 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:21:57,446 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:00,451 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:03,455 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:06,461 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:09,464 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:12,468 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:15,474 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:18,482 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:21,487 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:24,492 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:27,499 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:30,505 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:33,511 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:36,517 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:39,523 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:42,529 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:45,537 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:48,543 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:51,549 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:54,555 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:22:57,561 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:00,567 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:03,572 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:06,577 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:09,583 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:12,587 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:15,606 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:18,612 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address
+[2024-01-09 17:23:21,617 (main.py:97 - start())] ERROR -> [Errno 99] Cannot assign requested address

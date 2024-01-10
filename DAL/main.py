@@ -1,6 +1,8 @@
 from utils.pattern import Singleton
 from utils.threadpool import Worker
 from .RCS.processing_handle import ProcessHandle
+from utils.vntime import VnTimestamp, VnDateTime
+from .RCS.config import MissionStatus
 
 from flask import Flask
 from typing import List, Dict
@@ -34,24 +36,15 @@ class DALServer(metaclass=Singleton):
         self.__token_value = token_key
         self.__db_cfg = db_cfg
         self.__url_db = self.__db_cfg["url"]
+        self.__callbox_info = self.__db_cfg["callbox_info"]
+        self.__mission_info = self.__db_cfg["mission_info"]
+        self.__query_status_task = self.__rcs_cfg["query_status"]
+        self.__list_task = self.__rcs_cfg["mockup_list"]
 
-        # self.checkGateway()
-        # self.checkMission()
+        self.__url_rcs = self.__rcs_cfg["url"]
+        # print("self.__db_cfg", self.__rcs_cfg)
 
-    # # Support method
-    # def resolveUndoneTask(self):
-    #     """
-    #     Continue to do undone tasks from the last session
-    #     """
-    #     with self.__app.app_context():
-    #         missions : List[DB_Mission] = self.__db.mission.find(
-    #             status=MISSION_STATUS.PROCESS.value
-    #         ).all()
-    #         for mission in missions:
-    #             self.__rcs[mission.id] = MissionHandle(
-    #                 self.__app, mission, self.__db, self.__rcs_cfg, self.__rack_on_use)
-
-    # Minor thread
+        self.checkMission()
 
     @Worker.employ
     def checkMission(self):
@@ -59,40 +52,46 @@ class DALServer(metaclass=Singleton):
         * If mission enough, create handler
         * If mission done, pop
         """
-        # self.resolveUndoneTask()
-        print("DAL ready")
-
-        # request_body = {
-        #     "reqCode": f"iot-query-bin",
-        #     "areaCode": "self.__storage_area"
-        # }
-        # try:
-        #     res = requests.post(self.__url_db , headers= self.__token_value, json=request_body, timeout= 6)
-        #     reponse = res.json()
-        #     # print("reponse" , reponse)
-        # except Exception as e :
-        #     print("erroor 404")
-
         while True:
-            # with self.__app.app_context():
-            #     missions: List[DB_Mission] = self.__db.mission.find(
-            #         status=MISSION_STATUS.ENOUGH.value
-            #     ).all()
-            #     for mission in missions:
-            #         if mission.id not in self.__rcs:
-            #             self.__rcs[mission.id] = MissionHandle(
-            #                 self.__app,
-            #                 mission,
-            #                 self.__db,
-            #                 self.__rcs_cfg,
-            #                 self.__rack_on_use,
-            #             )
+            mission_list = self.get_mission_info(MissionStatus.DONE, 20)
+            if not mission_list:
+                pass
 
-            # mission_ids = list(self.__rcs.keys())
-            # for mission_id in mission_ids:
-            #     if self.__rcs[mission_id].process == MISSION_PROCESS.DONE:
-            #         self.__rcs.pop(mission_id)
-            sleep(3)
+            sleep(30)
+
+    def get_mission_info(self, type_mission, number):
+        list_task_rcs = []
+        request_body = {"filter": {"current_state": type_mission}, "limit": number}
+        try:
+            res = requests.post(
+                self.__url_db + self.__mission_info,
+                headers=self.__token_value,
+                json=request_body,
+                timeout=6,
+            )
+            response = res.json()
+            for index in range(0, len(response["metaData"])):
+                list_task_rcs.append(response["metaData"][0]["mission_rcs"])
+            return list_task_rcs
+        except Exception as e:
+            return None
+
+    def query_task_status(self, list_task):
+        request_body = {
+            "reqCode": int(VnTimestamp.now()),
+            "taskCodes": list_task,
+        }
+        try:
+            res = requests.post(
+                self.__url_rcs + self.__list_task, json=request_body, timeout=3
+            )
+            response = res.json()
+            if not response:
+                return None
+
+            return response["data"]
+        except Exception as e:
+            return None
 
     def get_token_key(self):
         return self.__token_value

@@ -50,7 +50,7 @@ class CallBox_TriggerTask(ApiBase):
         mission_info_ = self.get_mission_info(data)
         # if not mission_info_:
         self.__dal.trigger_mission(mission_info_)
-        return ApiBase.createResponseMessage()
+        return ApiBase.createResponseMessage({})
 
     def get_mission_info(self, data_request_):
         request_body = data_request_
@@ -63,8 +63,6 @@ class CallBox_TriggerTask(ApiBase):
             )
             reponse = res.json()
             return reponse
-            # print("reponse api getway ", reponse)
-            # mission_task = self.__dal.trigger_mission(reponse)
         except Exception as e:
             print("erroor 404")
 
@@ -131,7 +129,7 @@ class PDA_TriggerTask(ApiBase):
         request_body = {
             "gateway_id": data_request_["metaData"][0]["gateway_id"],
             "plc_id": data_request_["metaData"][0]["plc_id"],
-            "object": "PDA",
+            "object_call": "PDA",
             "tasks": [
                 {
                     "button_id": data_request_["metaData"][0]["deviceId"],
