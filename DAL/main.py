@@ -2,8 +2,7 @@ from utils.pattern import Singleton
 from utils.threadpool import Worker
 from .RCS.processing_handle import ProcessHandle
 from utils.vntime import VnTimestamp, VnDateTime
-from .RCS.config import MissionStatus
-
+from .RCS.config import MissionStatus, TaskStatus, MainState
 from flask import Flask
 from typing import List, Dict
 from time import sleep
@@ -39,6 +38,7 @@ class DALServer(metaclass=Singleton):
         self.__callbox_info = self.__db_cfg["callbox_info"]
         self.__mission_info = self.__db_cfg["mission_info"]
         self.__query_status_task = self.__rcs_cfg["query_status"]
+        self.__mission_history = self.__db_cfg["mission_change"]
         self.__list_task = self.__rcs_cfg["mockup_list"]
 
         self.__url_rcs = self.__rcs_cfg["url"]
@@ -53,11 +53,25 @@ class DALServer(metaclass=Singleton):
         * If mission done, pop
         """
         while True:
-            mission_list = self.get_mission_info(MissionStatus.DONE, 20)
+            mission_list = self.get_mission_info(MissionStatus.PENDING, 20)
             if not mission_list:
                 pass
+            else:
+                query = self.query_task_status(mission_list)
+                for i in range(0, len(query) + 1):
+                    self.process_task_rcs(query[i]["taskCode"], query[i]["taskStatus"])
 
-            sleep(30)
+            sleep(10)
+
+    def process_task_rcs(self, misson_code_, status_rcs_):
+        mission_status_ = MissionStatus.PENDING
+        if status_rcs_ == TaskStatus.COMPLETE:
+            mission_status_ = MissionStatus.DONE
+        elif status_rcs_ == TaskStatus.EXECUTING:
+            mission_status_ = MissionStatus.PROCESS
+        else:
+            mission_status_ = MissionStatus.CANCEL
+        self.updateStatusMission(misson_code_, mission_status_)
 
     def get_mission_info(self, type_mission, number):
         list_task_rcs = []
@@ -81,6 +95,7 @@ class DALServer(metaclass=Singleton):
             "reqCode": int(VnTimestamp.now()),
             "taskCodes": list_task,
         }
+        # print("list_task", list_task)
         try:
             res = requests.post(
                 self.__url_rcs + self.__list_task, json=request_body, timeout=3
@@ -88,10 +103,31 @@ class DALServer(metaclass=Singleton):
             response = res.json()
             if not response:
                 return None
-
+            # print("response", response)
             return response["data"]
         except Exception as e:
             return None
+
+    def updateStatusMission(self, misson_code_, status_):
+        request_body = {
+            "filter": {"mission_code": misson_code_},
+            "current_state": status_,
+        }
+        # print("request_body this ", request_body)
+        try:
+            res = requests.patch(
+                self.__url_db + self.__mission_history,
+                headers=self.__token_value,
+                json=request_body,
+                timeout=6,
+            )
+            response = res.json()
+            if response["code"] != "0":
+                return None
+            # print("reponse updateStatusMission", response)
+            return response["code"]
+        except Exception as e:
+            print("error update status mission")
 
     def get_token_key(self):
         return self.__token_value

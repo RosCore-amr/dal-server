@@ -87,6 +87,8 @@ class ProcessHandle:
         """
         _state = MainState.INIT
         _prev_state = MainState.NONE
+        _processing_task = None
+        _task_code = None
 
         while _state != MainState.NONE:
             if _state != _prev_state:
@@ -109,31 +111,45 @@ class ProcessHandle:
                 pass
 
             if _state == MainState.INIT:
-                if (
-                    self.__mission["code"] == SignalCallbox.SIGN_ERROR
-                    or self.__mission["code"] == SignalCallbox.CANCEL_ERROR
-                ):
+                if self.__mission["mission_rcs"]:
+                    _task_code = self.__mission["mission_rcs"]
+                if self.__mission["code"] == SignalCallbox.SIGN_SUCCESS:
+                    _state = MainState.CREATE_TASK
+                elif self.__mission["code"] == SignalCallbox.CANCEL_SUCCESS:
+                    _state = MainState.PROCESS_CANCEL
+                elif self.__mission["code"] == SignalCallbox.SIGN_ERROR:
+                    _state = MainState.TASK_REGISTER
+                else:
                     print("msg: ", self.__mission["msg"])
                     _state = MainState.NONE
 
-                if self.__mission["code"] == SignalCallbox.SIGN_SUCCESS:
-                    _state = MainState.CREATE_TASK
-                if self.__mission["code"] == SignalCallbox.CANCEL_SUCCESS:
-                    _state = MainState.PROCESS_CANCEL
             elif _state == MainState.CREATE_TASK:
                 _path = [
                     self.__mission["pickup_location"],
                     self.__mission["return_location"],
                 ]
-                task_code_ = self.sendTask(_path, RCS_TASK_CODE.UPSTAIR, False)
-                if task_code_ is not None:
-                    print("task_code_", task_code_)
-                    self.updateTaskMission(self.__mission_name, task_code_)
+                _task_code = self.sendTask(_path, RCS_TASK_CODE.UPSTAIR, False)
+                if _task_code is not None:
+                    print("task_code_", _task_code)
+                    self.updateTaskMission(self.__mission_name, _task_code)
                     _state = MainState.WAIT_PROCESS
+            elif _state == MainState.TASK_REGISTER:
+                if _task_code is None:
+                    _state = MainState.PROCESS_CANCEL
+                else:
+                    _processing_task = self.queryTaskStatus(
+                        _task_code, TaskStatus.CANCEL
+                    )
+                    # print("_processing_task", _processing_task)
+                    if _processing_task != TaskStatus.EXECUTING:
+                        # print("_processing_task", _processing_task)
+                        _state = MainState.CANCEL
+
             elif _state == MainState.WAIT_PROCESS:
                 _processing_task = self.queryTaskStatus(
-                    task_code_, TaskStatus.EXECUTING
+                    _task_code, TaskStatus.EXECUTING
                 )
+
                 # Wait for agv id
                 if _processing_task == TaskStatus.EXECUTING:
                     _state = MainState.PROCESSING
@@ -143,9 +159,9 @@ class ProcessHandle:
 
             elif _state == MainState.PROCESSING:
                 self.updateStatusMission(self.__mission_name, MissionStatus.PROCESS)
-                _processing_task = self.queryTaskStatus(task_code_, TaskStatus.COMPLETE)
+                _processing_task = self.queryTaskStatus(_task_code, TaskStatus.COMPLETE)
                 if _processing_task == TaskStatus.COMPLETE:
-                    _state = MainState.DONE
+                    _state = MainState.DONE_PROCESS
 
             elif _state == MainState.DONE_PROCESS:
                 if not self.updateStatusMission(
@@ -154,7 +170,7 @@ class ProcessHandle:
                     _state = MainState.DONE
 
             elif _state == MainState.PROCESS_CANCEL:
-                if not self.__mission["mission_rcs"]:
+                if not _task_code:
                     if not self.updateStatusMission(
                         self.__mission_name, MissionStatus.CANCEL
                     ):
@@ -169,6 +185,12 @@ class ProcessHandle:
                     ):
                         self.updateStatusMission(
                             self.__mission_name, MissionStatus.CANCEL
+                        )
+                        _state = MainState.CANCEL
+
+                    else:
+                        self.updateStatusMission(
+                            self.__mission_name, MissionStatus.PENDING
                         )
                         _state = MainState.CANCEL
 
@@ -208,6 +230,7 @@ class ProcessHandle:
             "filter": {"mission_code": misson_code_},
             "current_state": status_,
         }
+        # print("request_body this ", request_body)
         try:
             res = requests.patch(
                 self.__url_db + self.__mission_history,
@@ -218,7 +241,7 @@ class ProcessHandle:
             response = res.json()
             if response["code"] != "0":
                 return None
-
+            # print("reponse updateStatusMission", response)
             return response["code"]
         except Exception as e:
             print("error update status mission")
@@ -260,9 +283,11 @@ class ProcessHandle:
                 #               Request=request_body,
                 #               Response=response["message"])
                 return None
+            # print("response", response)
             return response["data"][0]["taskStatus"]
         except Exception as e:
             return None
+        return None
 
     def cancelTask(self, task_code_, matter_area_) -> str:
         request_body = {

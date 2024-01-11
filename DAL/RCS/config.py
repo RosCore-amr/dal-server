@@ -37,6 +37,7 @@ class MainState(Enum):
     PROCESS_CANCEL = 5
     DONE = 6
     DONE_PROCESS = 7
+    TASK_REGISTER = 8
 
 
 class TaskStatus:
@@ -62,3 +63,4 @@ class MissionStatus:
     PROCESS = "processing"
     CANCEL = "cancel"
     DONE = "accomplished"
+    PENDING = "pending"
