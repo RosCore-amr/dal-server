@@ -15,8 +15,7 @@ from .config import MainState, TaskStatus, SignalCallbox, MissionStatus
 from flask import Flask
 import requests
 
-# from time import sleep
-import time
+from time import sleep
 from typing import List
 
 
@@ -24,61 +23,51 @@ class ProcessHandle:
     def __init__(
         self,
         app: Flask,
+        object_call: dict,
         misssion: DB_Mission,
-        cfg: dict,
+        server_cfg: dict,
+        rcs_cfg: dict,
         token_key: str,
         db_cfg: dict,
         rack_on_use: list,
     ) -> None:
-        """
-        :app: (Flask) handle session to communicate with database
-        :mission_id: (int) mission_id
-        :database: (DatabaseHandle) database class container
-        :cfg: (dict)
-            "type"      : "RCS",
-            "url"       : "http://172.10.10.10:5000/rcms/services/rest/hikRpcService",
-            "task"      : "/genAgvScheduleTask",
-            "query"     : "/queryPodBerthAndMat",
-            "continue"  : "/continueTask",
-            "stop"      : "/stopRobot",
-            "resume"    : "/resumeRobot"
-        """
-        # Config
-        self.__url = cfg["url"]
-        self.__task_path = cfg["task"]
-        self.__storage_path = cfg["query"]
-        self.__stop_path = cfg["stop"]
-        self.__resume_path = cfg["resume"]
-        self.__continue_path = cfg["continue"]
-        self.__task_cancel = cfg["cancel"]
-        self.__storage_area = cfg["storage_area_code"]
-        self.__rack_prefix = cfg["pod_code_prefix"]
-        self.__query_status_task = cfg["query_status"]
-        self.__app = app
-        self.__rack_on_use = rack_on_use
+        # RCS Config
+        self.__url_rcs = rcs_cfg["url"]
+        self.__task_path = rcs_cfg["task"]
+        self.__storage_path = rcs_cfg["query"]
+        self.__stop_path = rcs_cfg["stop"]
+        self.__resume_path = rcs_cfg["resume"]
+        self.__continue_path = rcs_cfg["continue"]
+        self.__task_cancel = rcs_cfg["cancel"]
+        self.__storage_area = rcs_cfg["storage_area_code"]
+        self.__rack_prefix = rcs_cfg["pod_code_prefix"]
+        self.__query_status_task = rcs_cfg["query_status"]
+
+        # DB Config
+        self.__url_db = db_cfg["url"]
+        self.__mission_history = db_cfg["mission_change"]
+        self.__mission_info = db_cfg["mission_info"]
+
+        # Server Config
+        self.__url_server = server_cfg["url"]
+        self.__callbox = server_cfg["trigger_callbox"]
+
+        # Mission info
         self.__mission = misssion
         self.__mission_name = self.__mission["mission_code"]
 
-        # Init flags
+        # Init
         self.__agv = ""
-        self.__confirm_line_id = ""
-        self.__rcs_callback_task_id = ""
-        self.rcs_task_id = ""
-        self.line_to_confirm = ""
         self.__name_call = "None"
         self.__token_value = token_key
-        self.__db_cfg = db_cfg
-        self.__url_db = self.__db_cfg["url"]
-        self.__mission_history = self.__db_cfg["mission_change"]
-        self.__mission_info = self.__db_cfg["mission_info"]
-        self.__count = 0
-        self._cancel_status = False
+        self._cancel_programe = False
+        self.__object_call = object_call
+        self.rcs_task_id = ""
+        self.line_to_confirm = ""
+        self.main()
 
-        self.mainLoop()
-
-    # Normal mission thread
     @Worker.employ
-    def mainLoop(self):
+    def main(self):
         """
         Mission loop, call async once.
         * Call RCS api
@@ -102,7 +91,7 @@ class ProcessHandle:
                 )
                 _prev_state = _state
 
-            mission_status = self.missioncheck()
+            mission_status = self.query_db_mission()
             if mission_status == MissionStatus.CANCEL:
                 _state = MainState.CANCEL
             elif mission_status == MissionStatus.DONE:
@@ -129,13 +118,17 @@ class ProcessHandle:
                     self.__mission["return_location"],
                 ]
                 _task_code = self.sendTask(_path, RCS_TASK_CODE.UPSTAIR, False)
+                # QueyRcsMission("minh")
                 if _task_code is not None:
                     print("task_code_", _task_code)
-                    self.updateTaskMission(self.__mission_name, _task_code)
+                    # self.updateTaskMission(self.__mission_name, _task_code)
+                    self.query_rcs_mission(_task_code)
                     _state = MainState.WAIT_PROCESS
+                # else:
+                #     _state = MainState.CANCEL
             elif _state == MainState.TASK_REGISTER:
                 if _task_code is None:
-                    _state = MainState.PROCESS_CANCEL
+                    _state = MainState.REGISTER_AGAIN
                 else:
                     _processing_task = self.queryTaskStatus(
                         _task_code, TaskStatus.CANCEL
@@ -144,6 +137,13 @@ class ProcessHandle:
                     if _processing_task != TaskStatus.EXECUTING:
                         # print("_processing_task", _processing_task)
                         _state = MainState.CANCEL
+
+            elif _state == MainState.REGISTER_AGAIN:
+                if not self.updateStatusMission(
+                    self.__mission_name, MissionStatus.CANCEL
+                ):
+                    self.call_box_again(self.__object_call)
+                    _state = MainState.CANCEL
 
             elif _state == MainState.WAIT_PROCESS:
                 _processing_task = self.queryTaskStatus(
@@ -195,22 +195,44 @@ class ProcessHandle:
                         _state = MainState.CANCEL
 
             elif _state == MainState.CANCEL:
+                self._cancel_programe = True
                 _state = MainState.NONE
 
             elif _state == MainState.DONE:
+                self._cancel_programe = True
                 _state = MainState.NONE
 
         print("=========================================================")
 
-    def missioncheck(self):
-        response = self.checkMissionDB(self.__mission["mission_code"])
+    @Worker.employ
+    def query_rcs_mission(self, mision_rcs_):
+        while not self._cancel_programe:
+            reponse_rcs = self.queryTaskStatus(mision_rcs_, 100)
+            self.updateStatusMission(
+                self.__mission_name, self.missionConvertRcsToDB(reponse_rcs)
+            )
+            sleep(20)
+
+    def missionConvertRcsToDB(self, rcs_status):
+        # if rcs_status == TaskStatus.SENDING:
+        #     return MissionStatus.PROCESS
+        # elif rcs_status == TaskStatus.CANCEL:
+        #     return MissionStatus.CANCEL
+        # elif rcs_status == TaskStatus.COMPLETE:
+        #     return MissionStatus.DONE
+        # else:
+        #     return MissionStatus.PENDING
+        return MissionStatus.CANCEL
+
+    def query_db_mission(self):
+        response = self.missionDB(self.__mission["mission_code"])
         self.__agv = response["metaData"][0]["robot_code"]
         mission_rcs = response["metaData"][0]["mission_rcs"]
         self.__name_call = response["metaData"][0]["object_call"]
         mission_status = response["metaData"][0]["current_state"]
         return mission_status
 
-    def checkMissionDB(self, misson_code_):
+    def missionDB(self, misson_code_):
         request_body = {"filter": {"mission_code": misson_code_}}
         try:
             res = requests.post(
@@ -271,7 +293,7 @@ class ProcessHandle:
         }
         try:
             res = requests.post(
-                self.__url + self.__query_status_task, json=request_body, timeout=3
+                self.__url_rcs + self.__query_status_task, json=request_body, timeout=3
             )
             response = res.json()
             if not response:
@@ -298,7 +320,7 @@ class ProcessHandle:
         }
         try:
             res = requests.post(
-                self.__url + self.__task_cancel, json=request_body, timeout=3
+                self.__url_rcs + self.__task_cancel, json=request_body, timeout=3
             )
             response = res.json()
             if not response:
@@ -306,6 +328,22 @@ class ProcessHandle:
             if response["code"] != "0":
                 return None
             # print("response", response)
+            return response
+        except Exception as e:
+            return None
+
+    def call_box_again(self, callbox_info):
+        request_body = callbox_info
+        # print("request_body", request_body)
+        try:
+            res = requests.post(
+                self.__url_server + self.__callbox, json=request_body, timeout=3
+            )
+            response = res.json()
+            # print("call box", response)
+            if response["code"] != "0":
+                return None
+            print("response call_box_again", response)
             return response
         except Exception as e:
             return None
@@ -345,10 +383,10 @@ class ProcessHandle:
             "priority": RCS_PRIOR_CODE.PRIOR if prior else RCS_PRIOR_CODE.NORMAL,
             "agvCode": "self.__agv",
         }
-        # print("task ", self.__url + self.__task_path)
+        # print("task ", self.__url_rcs + self.__task_path)
         try:
             res = requests.post(
-                self.__url + self.__task_path, json=request_body, timeout=3
+                self.__url_rcs + self.__task_path, json=request_body, timeout=3
             )
             response = res.json()
             # print("response", response)

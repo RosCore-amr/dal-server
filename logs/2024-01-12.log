@@ -1,0 +1,234 @@
+[2024-01-12 10:04:20,455 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:06:44,992 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:22:51,953 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:22:58,393 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:08,640 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:16,120 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:31,393 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:48,287 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:50,631 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:52,472 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:23:53,674 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:24:22,679 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:24:52,805 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:25:02,389 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:25:08,462 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:25:43,795 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:25:49,208 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:26:06,104 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 10:26:33,481 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 14:08:37,909 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:08:40,774 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:08:42,028 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:09:21,703 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:10:12,436 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:10:58,746 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:11:00,045 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:11:32,836 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:12:02,842 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:12:04,570 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: ':port'
+[2024-01-12 14:13:13,370 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:16,373 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:19,374 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:22,378 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:25,381 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:28,382 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:31,386 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:34,386 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:37,389 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:40,393 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:43,394 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:46,398 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:49,401 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:52,402 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:55,405 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:13:58,407 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:01,410 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:04,414 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:07,414 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:10,418 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:13,418 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:16,422 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:19,426 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:22,429 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:25,433 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:28,436 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:31,438 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:34,442 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:37,445 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:40,446 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:43,450 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:46,453 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:49,457 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:52,460 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:55,462 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:14:58,465 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:01,466 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:04,470 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:07,473 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:10,474 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:13,478 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:16,482 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:19,482 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:22,486 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:25,488 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:28,492 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:31,494 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:34,498 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:37,501 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:40,502 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:43,505 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:46,506 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:49,510 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:52,513 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:55,514 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:15:58,578 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:01,581 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:09,695 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:12,698 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:15,702 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:19,481 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:22,483 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:25,486 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:28,488 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:31,490 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:33,971 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:36,973 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:39,975 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:42,978 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:45,982 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:50,463 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:53,466 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:56,470 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:16:59,473 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:02,476 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:05,478 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:08,482 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:11,482 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:14,486 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:18,920 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:21,924 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:24,926 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:38,176 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:41,178 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:51,791 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:54,794 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:17:57,798 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:00,798 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:03,802 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:06,805 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:09,806 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:12,810 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:15,813 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:18,817 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:21,818 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:24,819 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:27,823 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:48,406 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:51,410 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:54,413 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:18:57,417 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:19:00,418 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:19:03,422 (main.py:98 - start())] ERROR -> Unknown adjustment 'url'
+[2024-01-12 14:19:07,608 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:10,610 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:13,614 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:16,617 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:19,621 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:22,624 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:25,626 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:28,630 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:31,633 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 14:19:34,634 (main.py:98 - start())] ERROR -> Unknown adjustment 'url_server'
+[2024-01-12 15:55:25,669 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f204e478ca0>((<DAL.main.DALServer object at 0x7f204c32acd0>,), {})] Process died (Message: object of type 'NoneType' has no len())
+[2024-01-12 15:57:04,495 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7fd7887b7ca0>((<DAL.main.DALServer object at 0x7fd784e64ca0>,), {})] Process died (Message: list index out of range)
+[2024-01-12 15:57:30,633 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f7128b33c10>((<DAL.main.DALServer object at 0x7f71281e6ca0>,), {})] Process died (Message: list index out of range)
+[2024-01-12 15:58:59,524 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f7ed6551c10>((<DAL.main.DALServer object at 0x7f7ed4400ca0>,), {})] Process died (Message: list index out of range)
+[2024-01-12 16:01:40,607 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f08fbd55c10>((<DAL.main.DALServer object at 0x7f08f8402ca0>,), {})] Process died (Message: object of type 'NoneType' has no len())
+[2024-01-12 16:01:47,417 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7fcee7bd5c10>((<DAL.main.DALServer object at 0x7fcee4284ca0>,), {})] Process died (Message: 0)
+[2024-01-12 16:02:16,318 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f9ac3177c10>((<DAL.main.DALServer object at 0x7f9ac0024c70>,), {})] Process died (Message: 0)
+[2024-01-12 16:02:38,951 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f3b0de80c10>((<DAL.main.DALServer object at 0x7f3b0c530c70>,), {})] Process died (Message: 0)
+[2024-01-12 16:03:19,327 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f69e182fc10>((<DAL.main.DALServer object at 0x7f69e06e0c70>,), {})] Process died (Message: 0)
+[2024-01-12 16:03:58,634 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f33390c2c10>((<DAL.main.DALServer object at 0x7f3338774c70>,), {})] Process died (Message: 0)
+[2024-01-12 16:08:54,932 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f2259c59c10>((<DAL.main.DALServer object at 0x7f225830bca0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:09:02,504 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 16:09:58,029 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function DALServer.checkMission at 0x7f6b69e09c10>((<DAL.main.DALServer object at 0x7f6b684bbca0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:13:59,286 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b83d65b0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:13:59,771 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b8386e80>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:00,272 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b8390a90>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:00,754 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b8386be0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:01,228 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b8390af0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:01,730 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b83908e0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:02,293 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b8394970>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:02,772 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b8394e80>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:03,231 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f73e5636280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f73b83865b0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:45,217 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f982795b0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:45,724 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98229e80>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:46,198 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98234940>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:46,683 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98229a90>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:47,153 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98234e20>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:47,635 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98229130>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:48,101 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f982419a0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:48,590 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98241df0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:49,148 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f982417f0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:49,641 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98229280>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:57,706 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f9824f910>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:58,197 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f9824f400>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:14:58,711 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98241fd0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:15:01,973 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:02,091 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7f2fc74de1f0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f2f98245130>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:15:04,977 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:07,982 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:10,987 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:13,993 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:16,996 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:20,000 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:23,006 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:26,010 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:29,016 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:32,021 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:35,027 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:38,033 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:41,037 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:44,040 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:47,044 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:50,048 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:53,053 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:15:56,059 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:16:28,262 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:16:31,268 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:16:34,272 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:16:37,275 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:19:46,817 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:19:49,823 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:19:52,828 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:19:55,831 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:19:58,836 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:20:01,842 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:20:04,846 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:20:07,853 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:20:10,860 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-12 16:26:25,511 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7facce3bd310>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7faca0158a00>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 16:35:06,997 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.mainLoop at 0x7facce3bd310>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7faca29b0430>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-12 17:00:47,517 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:00:58,820 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:01:29,635 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:01:44,842 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:02:23,052 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:02:43,506 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:03:10,605 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-12 17:09:33,792 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:09:54,428 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:10:18,557 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:17:42,072 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:17:57,089 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:17:59,443 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:18:00,681 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:18:02,433 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:18:04,694 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:18:06,528 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-12 17:48:40,652 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.query_rcs_mission at 0x7fc4cc21b700>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fc4c88cee80>, 'taskCode-80'), {})] Process died (Message: missionConvertRcsToDB() takes 1 positional argument but 2 were given)
+[2024-01-12 17:49:08,323 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.query_rcs_mission at 0x7f0310c69700>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f0310322e50>, 'taskCode-405'), {})] Process died (Message: missionConvertRcsToDB() takes 1 positional argument but 2 were given)
+[2024-01-12 17:50:04,268 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.query_rcs_mission at 0x7fd9399fe700>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fd9380b5e50>, 'taskCode-774'), {})] Process died (Message: missionConvertRcsToDB() takes 1 positional argument but 2 were given)
+[2024-01-12 17:50:37,637 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.query_rcs_mission at 0x7f5013a03700>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f50100b6e50>, 'taskCode-66'), {})] Process died (Message: missionConvertRcsToDB() takes 1 positional argument but 2 were given)
+[2024-01-12 17:51:00,429 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.query_rcs_mission at 0x7f3a782f8700>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f3a749b3790>, 'taskCode-509'), {})] Process died (Message: missionConvertRcsToDB() takes 1 positional argument but 2 were given)

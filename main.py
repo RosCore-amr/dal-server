@@ -36,6 +36,7 @@ class CallboxServer:
             self.token_key,
             self.config["CFG_DB"],
             self.config["CFG_RCS"],
+            self.config["CFG_SERVER"],
         )
         self.__gateway = GatewayHandle(
             self.flask.app,
@@ -90,9 +91,15 @@ class CallboxServer:
         """
         Serve forever
         """
+        # print("data base ", self.config["CFG_SERVER"]["host"])
+        api_local_config = {
+            "host": self.config["CFG_SERVER"]["host"],
+            "port": self.config["CFG_SERVER"]["port"],
+        }
+        # print("api_local_config", api_local_config)
         while True:
             try:
-                self.flask.start(self.config["CFG_SERVER"])
+                self.flask.start(api_local_config)
             except Exception as e:
                 Logger().error(str(e))
             try:

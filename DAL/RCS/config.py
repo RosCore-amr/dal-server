@@ -38,6 +38,7 @@ class MainState(Enum):
     DONE = 6
     DONE_PROCESS = 7
     TASK_REGISTER = 8
+    REGISTER_AGAIN = 9
 
 
 class TaskStatus:

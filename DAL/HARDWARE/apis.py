@@ -45,11 +45,9 @@ class CallBox_TriggerTask(ApiBase):
         ```
         """
         args = ["gateway_id", "plc_id", "timestamp", "tasks"]
-        data = self.jsonParser(args, args)
-        # print("data", data)
-        mission_info_ = self.get_mission_info(data)
-        # if not mission_info_:
-        self.__dal.trigger_mission(mission_info_)
+        data_ = self.jsonParser(args, args)
+        mission_info_ = self.get_mission_info(data_)
+        self.__dal.trigger_mission(data_, mission_info_)
         return ApiBase.createResponseMessage({})
 
     def get_mission_info(self, data_request_):
@@ -96,9 +94,10 @@ class PDA_TriggerTask(ApiBase):
         args = ["location", "sectors", "status"]
         data = self.jsonParser(args, args)
         pda_info_ = self.get_info_pda(data)
+        # print("pda_info_", pda_info_)
         if pda_info_ is not None:
             mission_info_ = self.get_mission_info(pda_info_, data)
-            self.__dal.trigger_mission(mission_info_)
+            self.__dal.trigger_mission(pda_info_, mission_info_)
 
         return ApiBase.createResponseMessage({})
 

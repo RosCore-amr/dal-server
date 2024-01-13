@@ -16,7 +16,9 @@ class DALServer(metaclass=Singleton):
     A singleton handle DAL logic
     """
 
-    def __init__(self, app: Flask, token_key: str, db_cfg: dict, rcs_cfg: dict):
+    def __init__(
+        self, app: Flask, token_key: str, db_cfg: dict, rcs_cfg: dict, server_cfg: dict
+    ):
         """
         rcs_cfg:
             "type"      : "RCS",
@@ -34,6 +36,7 @@ class DALServer(metaclass=Singleton):
         self.__rack_on_use = []
         self.__token_value = token_key
         self.__db_cfg = db_cfg
+        self.__server_cfg = server_cfg
         self.__url_db = self.__db_cfg["url"]
         self.__callbox_info = self.__db_cfg["callbox_info"]
         self.__mission_info = self.__db_cfg["mission_info"]
@@ -58,12 +61,15 @@ class DALServer(metaclass=Singleton):
                 pass
             else:
                 query = self.query_task_status(mission_list)
-                for i in range(0, len(query) + 1):
-                    self.process_task_rcs(query[i]["taskCode"], query[i]["taskStatus"])
+                # print("query", query)
+                # for i in range(0, len(query) + 1):
+                #     print("i", query[0]["taskCode"])
+                self.process_task_rcs(query["taskCode"], query["taskStatus"])
 
             sleep(10)
 
     def process_task_rcs(self, misson_code_, status_rcs_):
+        print("misson_code_", misson_code_)
         mission_status_ = MissionStatus.PENDING
         if status_rcs_ == TaskStatus.COMPLETE:
             mission_status_ = MissionStatus.DONE
@@ -71,6 +77,7 @@ class DALServer(metaclass=Singleton):
             mission_status_ = MissionStatus.PROCESS
         else:
             mission_status_ = MissionStatus.CANCEL
+        print("mission_status_", mission_status_)
         self.updateStatusMission(misson_code_, mission_status_)
 
     def get_mission_info(self, type_mission, number):
@@ -95,7 +102,6 @@ class DALServer(metaclass=Singleton):
             "reqCode": int(VnTimestamp.now()),
             "taskCodes": list_task,
         }
-        # print("list_task", list_task)
         try:
             res = requests.post(
                 self.__url_rcs + self.__list_task, json=request_body, timeout=3
@@ -135,10 +141,15 @@ class DALServer(metaclass=Singleton):
     def get_db_cfg(self):
         return self.__db_cfg
 
-    def trigger_mission(self, data: dict):
+    def get_server_cfg(self):
+        return self.__server_cfg
+
+    def trigger_mission(self, object_call_: dict, mission_info: dict):
         trigger_handle = ProcessHandle(
             self.__app,
-            data,
+            object_call_,
+            mission_info,
+            self.__server_cfg,
             self.__rcs_cfg,
             self.__token_value,
             self.__db_cfg,

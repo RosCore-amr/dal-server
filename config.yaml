@@ -27,6 +27,9 @@ CFG_RCS:
 CFG_SERVER:
   host: 192.168.1.237
   port: 8080
+  url: http://192.168.1.237:8080/
+  amr_cb: agv/callback
+  trigger_callbox: trigger
 CFG_DB:
   name: minhpq
   pass: minhpq
