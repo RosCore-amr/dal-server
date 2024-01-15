@@ -12,6 +12,7 @@ from DAL.HARDWARE.handle import GatewayHandle
 from app import FlaskApp
 import requests
 import yaml
+import base64
 from yaml.loader import BaseLoader
 from iot_config import THIS_PC_MAC_ID
 
@@ -26,14 +27,16 @@ class CallboxServer:
         # LICENSE
         import uuid
 
-        # if uuid.getnode() != THIS_PC_MAC_ID or self.token_key is None:
+        # if uuid.getnode() != THIS_PC_MAC_ID or self.token_bearer is None:
         #     exit(code=-1)
 
         ThreadPool(7)
         self.flask = FlaskApp()
         self.__dal = DALServer(
             self.flask.app,
-            self.token_key,
+            self.token_bearer,
+            self.token_base64,
+            self.config["CFG_GW"],
             self.config["CFG_DB"],
             self.config["CFG_RCS"],
             self.config["CFG_SERVER"],
@@ -41,7 +44,7 @@ class CallboxServer:
         self.__gateway = GatewayHandle(
             self.flask.app,
             # self.__db,
-            self.token_key,
+            self.token_bearer,
             self.config["CFG_DB"],
             self.config["CFG_MQTT"],
         )
@@ -52,7 +55,8 @@ class CallboxServer:
         config_file = kwargs["config_file"]
         self.logfile = kwargs["log_file"]
         self.config = self.load_config(config_file)
-        self.token_key = self.get_token(self.config["CFG_DB"])
+        self.token_bearer = self.get_token_bearer(self.config["CFG_DB"])
+        self.token_base64 = self.get_token_base64(self.config["CFG_GW"])
         log_path = os.path.join(
             self.logfile, "{:%Y-%m-%d}.log".format(VnDateTime.now())
         )
@@ -73,7 +77,7 @@ class CallboxServer:
             except yaml.YAMLError as e:
                 print(e)
 
-    def get_token(self, cfg: dict):
+    def get_token_bearer(self, cfg: dict):
         request_body = {"name": cfg["name"], "password": cfg["pass"]}
         try:
             res = requests.post(cfg["url"] + cfg["login"], json=request_body, timeout=3)
@@ -86,6 +90,14 @@ class CallboxServer:
             return token_request
         except Exception as e:
             pass
+
+    def get_token_base64(self, cfg: dict):
+        usrPass = cfg["user"] + ":" + cfg["pass"]
+        byte_data = usrPass.encode("utf-8")
+        encoded_data = base64.b64encode(byte_data)
+        remove_b = encoded_data.decode()
+        headers = {"Authorization": "Basic %s" % remove_b}
+        return headers
 
     def start(self):
         """

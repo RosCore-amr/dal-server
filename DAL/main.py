@@ -17,7 +17,14 @@ class DALServer(metaclass=Singleton):
     """
 
     def __init__(
-        self, app: Flask, token_key: str, db_cfg: dict, rcs_cfg: dict, server_cfg: dict
+        self,
+        app: Flask,
+        token_bearer: str,
+        token_base64: str,
+        gw_cfg: dict,
+        db_cfg: dict,
+        rcs_cfg: dict,
+        server_cfg: dict,
     ):
         """
         rcs_cfg:
@@ -33,8 +40,10 @@ class DALServer(metaclass=Singleton):
         # self.__db = db_handle
         # self.__rcs: Dict[str, MissionHandle] = {}
         self.__rcs_cfg = rcs_cfg
+        self.__gw_cfg = gw_cfg
         self.__rack_on_use = []
-        self.__token_value = token_key
+        self.__token_db = token_bearer
+        self.__token_gw = token_base64
         self.__db_cfg = db_cfg
         self.__server_cfg = server_cfg
         self.__url_db = self.__db_cfg["url"]
@@ -86,7 +95,7 @@ class DALServer(metaclass=Singleton):
         try:
             res = requests.post(
                 self.__url_db + self.__mission_info,
-                headers=self.__token_value,
+                headers=self.__token_db,
                 json=request_body,
                 timeout=6,
             )
@@ -123,7 +132,7 @@ class DALServer(metaclass=Singleton):
         try:
             res = requests.patch(
                 self.__url_db + self.__mission_history,
-                headers=self.__token_value,
+                headers=self.__token_db,
                 json=request_body,
                 timeout=6,
             )
@@ -135,8 +144,8 @@ class DALServer(metaclass=Singleton):
         except Exception as e:
             print("error update status mission")
 
-    def get_token_key(self):
-        return self.__token_value
+    def get_token_bearer(self):
+        return self.__token_db
 
     def get_db_cfg(self):
         return self.__db_cfg
@@ -145,13 +154,16 @@ class DALServer(metaclass=Singleton):
         return self.__server_cfg
 
     def trigger_mission(self, object_call_: dict, mission_info: dict):
+        # print("mission_info", mission_info)
         trigger_handle = ProcessHandle(
             self.__app,
             object_call_,
             mission_info,
             self.__server_cfg,
             self.__rcs_cfg,
-            self.__token_value,
+            self.__token_db,
+            self.__token_gw,
+            self.__gw_cfg,
             self.__db_cfg,
             self.__rack_on_use,
         )

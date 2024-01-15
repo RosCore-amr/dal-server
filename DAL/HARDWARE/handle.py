@@ -1,13 +1,11 @@
 from iot_config import CFG_MQTT_TOPIC
 from utils.mqtt import MqttMessage
-from utils.logger import Logger
 from utils.pattern import Singleton
-from app.database.handle import DatabaseHandle
-from app.database.model.history import ERROR_MODULE
 
 from flask import Flask
 from flask_mqtt import Mqtt, MQTT_ERR_SUCCESS, MQTT_ERR_NO_CONN
 import paho.mqtt.client as mqtt_client
+import paho.mqtt.client as mqtt
 from time import sleep
 import requests
 import json
@@ -56,7 +54,7 @@ class GatewayHandle(Mqtt, metaclass=Singleton):
         # Subscribe on connect
         @self.on_connect()
         def onConnect(client, userdata, flags, rc):
-            # print("MQTT ready")
+            print("MQTT ready")
             self.subscribe(CFG_MQTT_TOPIC.ERROR)
             self.subscribe(CFG_MQTT_TOPIC.UPTIME)
 
@@ -67,12 +65,25 @@ class GatewayHandle(Mqtt, metaclass=Singleton):
         ):
             topic = msg.topic
             message = msg.payload.decode()
-            # print("message mqtt" , message )
-            # print("message" ,type(message))
+            # print("message", message)
             if topic == CFG_MQTT_TOPIC.ERROR:
                 self.__onError(message)
             elif topic == CFG_MQTT_TOPIC.UPTIME:
                 self.__onUptime(message)
+
+        app.config["MQTT_BROKER_URL"] = mqtt_cfg["host"]
+        app.config["MQTT_BROKER_PORT"] = mqtt_cfg["port"]
+        app.config["MQTT_USERNAME"] = mqtt_cfg["user"]
+        app.config["MQTT_PASSWORD"] = mqtt_cfg["pass"]
+        app.config["MQTT_KEEPALIVE"] = 5  # seconds
+        app.config["MQTT_TLS_ENABLED"] = False
+        while not self.connected:
+            try:
+                self.init_app(app)
+            except Exception as e:
+                # Logger().error(f"[{ERROR_MODULE.BROKER}] {e}")
+                pass
+            sleep(3)
 
     # Callback
     def __onError(self, message: str):
@@ -96,10 +107,24 @@ class GatewayHandle(Mqtt, metaclass=Singleton):
         """
         # Read message
         uptime_msg = json.loads(message)
-        request_body = uptime_msg
-        # print("request_body ", request_body)
-        # print("__token_value" , (self.__token_value))
-
+        # request_body = uptime_msg
+        device_ = {
+            "1": uptime_msg["button1"],
+            "2": uptime_msg["button2"],
+            "3": uptime_msg["button3"],
+            "4": uptime_msg["button4"],
+        }
+        request_body = []
+        # print("num_device ", num_device)
+        for key, val in device_.items():
+            if val == 1:
+                device_ = {
+                    "gateway_id": uptime_msg["gateway_id"],
+                    "plc_id": uptime_msg["deviceId"].split("_")[1],
+                    "deviceId": key,
+                }
+                request_body.append(device_)
+        # print("config", request_body)
         try:
             res = requests.patch(
                 self.__url_db + self.__status,
@@ -109,6 +134,6 @@ class GatewayHandle(Mqtt, metaclass=Singleton):
             )
             reponse = res.json()
 
-            # print("updata status " , reponse)
+            # print("updata status ", reponse)
         except Exception as e:
             print("error status DB")

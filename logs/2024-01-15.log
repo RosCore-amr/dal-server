@@ -1,0 +1,31 @@
+[2024-01-15 09:17:44,019 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:18:03,097 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:18:31,703 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:18:38,152 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:19:29,107 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:19:31,539 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:19:34,332 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:19:36,048 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:50:40,484 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:50:43,245 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 09:50:45,062 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 10:02:23,878 (main.py:104 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 10:18:42,614 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7fd899a96280>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fd86c046fa0>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-15 15:27:56,398 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 15:35:59,318 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:36:15,266 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7f0e1339c160>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f0e10056790>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-15 15:47:32,701 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7f34ac4e4160>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f34a8989ee0>,), {})] Process died (Message: Replacement index 0 out of range for positional args tuple)
+[2024-01-15 15:49:56,863 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:49:59,865 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:50:02,869 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:50:05,873 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:50:08,879 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:50:11,885 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 15:50:14,891 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-15 16:56:58,845 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 16:58:39,638 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 16:59:21,732 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7efc232e4160>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7efbf4056b20>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-15 17:00:54,095 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 17:05:52,507 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-15 17:37:23,311 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-15 17:37:26,889 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range

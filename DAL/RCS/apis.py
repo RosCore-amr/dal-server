@@ -11,7 +11,7 @@ class API_RCSCallback(ApiBase):
     def __init__(self) -> None:
         self.__dal = DALServer()
         self.__db_cfg = self.__dal.get_db_cfg()
-        self.__token_value = self.__dal.get_token_key()
+        self.__token_value = self.__dal.get_token_bearer()
 
         # Config
         self.__url_db = self.__db_cfg["url"]

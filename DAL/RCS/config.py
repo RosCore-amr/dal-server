@@ -39,6 +39,7 @@ class MainState(Enum):
     DONE_PROCESS = 7
     TASK_REGISTER = 8
     REGISTER_AGAIN = 9
+    FINISH = 10
 
 
 class TaskStatus:
@@ -65,3 +66,8 @@ class MissionStatus:
     CANCEL = "cancel"
     DONE = "accomplished"
     PENDING = "pending"
+
+
+class DeviceControl:
+    ON = 1
+    OFF = 100

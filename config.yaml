@@ -1,16 +1,22 @@
 CFG_MQTT:
-  host: 192.168.1.170
+  host: 192.168.1.237
   pass: rostek2019
+  user: rostek
   port: 1883
   type: MQTT
-  user: rostek
-CFG_MYSQL:
-  host: 127.0.0.1
-  pass: rostek2019
-  port: 3306
-  scheme: seehan
-  type: MYSQL
-  user: rostek
+CFG_GW:
+  url: http://192.168.1.44:5500/
+  pass: admin
+  user: admin
+  device_control: api/v2.0.0/device/control/
+
+# CFG_MYSQL:
+#   host: 127.0.0.1
+#   pass: rostek2019
+#   port: 3306
+#   scheme: seehan
+#   type: MYSQL
+#   user: rostek
 CFG_RCS:
   continue: continueTask
   pod_code_prefix: 1F

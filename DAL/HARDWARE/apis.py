@@ -20,7 +20,7 @@ class CallBox_TriggerTask(ApiBase):
     def __init__(self) -> None:
         self.__dal = DALServer()
         self.db_cfg = self.__dal.get_db_cfg()
-        self.__token_value = self.__dal.get_token_key()
+        self.__token_value = self.__dal.get_token_bearer()
 
         # Config
         self.__url_db = self.db_cfg["url"]
@@ -46,11 +46,11 @@ class CallBox_TriggerTask(ApiBase):
         """
         args = ["gateway_id", "plc_id", "timestamp", "tasks"]
         data_ = self.jsonParser(args, args)
-        mission_info_ = self.get_mission_info(data_)
+        mission_info_ = self.get_mission(data_)
         self.__dal.trigger_mission(data_, mission_info_)
         return ApiBase.createResponseMessage({})
 
-    def get_mission_info(self, data_request_):
+    def get_mission(self, data_request_):
         request_body = data_request_
         try:
             res = requests.patch(
@@ -71,7 +71,7 @@ class PDA_TriggerTask(ApiBase):
     def __init__(self) -> None:
         self.__dal = DALServer()
         self.db_cfg = self.__dal.get_db_cfg()
-        self.__token_value = self.__dal.get_token_key()
+        self.__token_value = self.__dal.get_token_bearer()
 
         # Config
         self.__url_db = self.db_cfg["url"]
@@ -93,15 +93,15 @@ class PDA_TriggerTask(ApiBase):
         """
         args = ["location", "sectors", "status"]
         data = self.jsonParser(args, args)
-        pda_info_ = self.get_info_pda(data)
+        pda_info_ = self.get_pda(data)
         # print("pda_info_", pda_info_)
         if pda_info_ is not None:
-            mission_info_ = self.get_mission_info(pda_info_, data)
+            mission_info_ = self.get_mission(pda_info_, data)
             self.__dal.trigger_mission(pda_info_, mission_info_)
 
         return ApiBase.createResponseMessage({})
 
-    def get_info_pda(self, data_request_):
+    def get_pda(self, data_request_):
         request_body = {
             "limit": 1,
             "filter": {
@@ -123,7 +123,7 @@ class PDA_TriggerTask(ApiBase):
         except Exception as e:
             print("erroor 404")
 
-    def get_mission_info(self, data_request_, status):
+    def get_mission(self, data_request_, status):
         # print("data_request_", data_request_["metaData"][0])
         request_body = {
             "gateway_id": data_request_["metaData"][0]["gateway_id"],

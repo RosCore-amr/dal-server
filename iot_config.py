@@ -3,10 +3,9 @@ class CFG_LANGUAGE(object):
 
 
 class CFG_MQTT_TOPIC(object):
-    ERROR = "/2.0.0/rostek/machine"
-    SYNC = "/2.0.0/rostek/sync"
-    UPTIME = "/2.0.0/rostek/uptime"
+    ERROR = "/v2.0.0/rostek/machine"
+    SYNC = "/v2.0.0/rostek/sync"
+    UPTIME = "/v2.0.0/rostek/uptime"
 
 
-# THIS_PC_MAC_ID = 91757641753
 THIS_PC_MAC_ID = 221310973363954
