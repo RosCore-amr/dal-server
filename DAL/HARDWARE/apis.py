@@ -47,6 +47,7 @@ class CallBox_TriggerTask(ApiBase):
         args = ["gateway_id", "plc_id", "timestamp", "tasks"]
         data_ = self.jsonParser(args, args)
         mission_info_ = self.get_mission(data_)
+        # print("data_", data_)
         self.__dal.trigger_mission(data_, mission_info_)
         return ApiBase.createResponseMessage({})
 
@@ -95,11 +96,22 @@ class PDA_TriggerTask(ApiBase):
         data = self.jsonParser(args, args)
         pda_info_ = self.get_pda(data)
         # print("pda_info_", pda_info_)
+        # print("data", data)
         if pda_info_ is not None:
-            mission_info_ = self.get_mission(pda_info_, data)
-            self.__dal.trigger_mission(pda_info_, mission_info_)
-
-        return ApiBase.createResponseMessage({})
+            request_pda = {
+                "gateway_id": pda_info_["metaData"][0]["gateway_id"],
+                "plc_id": pda_info_["metaData"][0]["plc_id"],
+                "object_call": "PDA",
+                "tasks": [
+                    {
+                        "button_id": pda_info_["metaData"][0]["deviceId"],
+                        "action": data["status"],
+                    }
+                ],
+            }
+            mission_info_ = self.get_mission(request_pda)
+            self.__dal.trigger_mission(request_pda, mission_info_)
+            return ApiBase.createResponseMessage({})
 
     def get_pda(self, data_request_):
         request_body = {
@@ -118,24 +130,12 @@ class PDA_TriggerTask(ApiBase):
                 timeout=6,
             )
             reponse = res.json()
-            # print("reponse", reponse)
+            # print("pda", reponse)
             return reponse
         except Exception as e:
             print("erroor 404")
 
-    def get_mission(self, data_request_, status):
-        # print("data_request_", data_request_["metaData"][0])
-        request_body = {
-            "gateway_id": data_request_["metaData"][0]["gateway_id"],
-            "plc_id": data_request_["metaData"][0]["plc_id"],
-            "object_call": "PDA",
-            "tasks": [
-                {
-                    "button_id": data_request_["metaData"][0]["deviceId"],
-                    "action": status["status"],
-                }
-            ],
-        }
+    def get_mission(self, request_body):
         try:
             res = requests.patch(
                 self.__url_db + self.__action_callbox,
@@ -144,6 +144,7 @@ class PDA_TriggerTask(ApiBase):
                 timeout=6,
             )
             reponse = res.json()
+            # print("reponse", reponse)
             return reponse
         except Exception as e:
             print("erroor 404")

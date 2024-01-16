@@ -436,7 +436,6 @@ class ProcessHandle:
                 timeout=4,
             )
             response = res.json()
-            print("response", response)
             if not response:
                 return None
 

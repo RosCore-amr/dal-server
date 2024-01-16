@@ -1,0 +1,48 @@
+[2024-01-16 09:18:40,711 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:19:53,257 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:20:18,864 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:21:41,698 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:25:19,989 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:25:56,541 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:26:14,169 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:28:04,719 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:28:08,185 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:28:25,026 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:28:44,847 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:28:47,142 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:29:36,840 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:30:26,371 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:30:45,396 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:30:47,055 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:30:54,025 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 09:31:12,688 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
+[2024-01-16 12:12:17,766 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:12:49,502 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:13:59,671 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:14:11,725 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:14:42,953 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:16:16,246 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:17:36,017 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:18:04,399 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:19:23,550 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:19:52,040 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:23:24,876 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:25:48,979 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:28:02,089 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:28:27,448 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:28:59,232 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:29:16,674 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:29:49,443 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: __init__() missing 7 required positional arguments: 'server_cfg', 'rcs_cfg', 'token_bearer', 'token_base64', 'gw_cfg', 'db_cfg', and 'rack_on_use'
+[2024-01-16 12:30:03,699 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:30:25,134 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:30:27,016 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:31:19,418 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:32:59,048 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: __init__() missing 1 required positional argument: 'rack_on_use'
+[2024-01-16 12:33:13,100 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:34:04,105 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:46:54,146 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 12:48:25,492 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'tasks'
+[2024-01-16 13:00:52,322 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7f9409c76160>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f93dc1da880>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-16 13:32:03,029 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-16 13:57:22,492 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-16 14:15:45,243 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: list index out of range
