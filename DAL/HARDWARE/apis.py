@@ -92,7 +92,7 @@ class PDA_TriggerTask(ApiBase):
 
         ```
         """
-        args = ["location", "sectors", "status"]
+        args = ["location", "sectors", "status", "user"]
         data = self.jsonParser(args, args)
         pda_info_ = self.get_pda(data)
         # print("pda_info_", pda_info_)
@@ -101,7 +101,7 @@ class PDA_TriggerTask(ApiBase):
             request_pda = {
                 "gateway_id": pda_info_["metaData"][0]["gateway_id"],
                 "plc_id": pda_info_["metaData"][0]["plc_id"],
-                "object_call": "PDA",
+                "object_call": "PDA_{}".format(data["user"]),
                 "tasks": [
                     {
                         "button_id": pda_info_["metaData"][0]["deviceId"],
