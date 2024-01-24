@@ -48,3 +48,4 @@ CFG_DB:
   action: call_boxes/update_status_action/dal
   mission_change : mission_history
   mission_info: mission_history/list
+  location: location/

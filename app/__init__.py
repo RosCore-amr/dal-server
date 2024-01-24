@@ -29,7 +29,6 @@ class FlaskApp:
 
         # INIT REST API
         api.init_app(self.app)
-        print("RestAPI ready")
 
     def initDatabase(self, cfg: dict):
         """
@@ -54,6 +53,7 @@ class FlaskApp:
         "host"  : '192.168.1.81',
         "port"  : 5500
         """
+        print("RestAPI ready")
         serve(self.app, **flask_cfg)
 
     @staticmethod

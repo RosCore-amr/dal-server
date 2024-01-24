@@ -51,6 +51,8 @@ class GatewayHandle(Mqtt, metaclass=Singleton):
         self.__callbox = self.__db_cfg["callbox"]
         self.__status = self.__db_cfg["status"]
 
+        # print("mqtt")
+
         # Subscribe on connect
         @self.on_connect()
         def onConnect(client, userdata, flags, rc):

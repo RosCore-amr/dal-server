@@ -1,0 +1,12 @@
+[2024-01-22 14:29:37,226 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-22 14:39:52,791 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-22 14:39:55,797 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-22 14:39:58,803 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-22 14:40:01,808 (main.py:116 - start())] ERROR -> [Errno 98] Address already in use
+[2024-01-22 14:48:26,387 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7fb5df09b3a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fb5b05e2640>,), {})] Process died (Message: 'sectors')
+[2024-01-22 14:49:29,464 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7fb5df09b3a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fb5b0607d30>,), {})] Process died (Message: 'NoneType' object is not subscriptable)
+[2024-01-22 14:51:14,988 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7fb5df09b3a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fb5b059b640>,), {})] Process died (Message: 'sectors')
+[2024-01-22 14:51:33,662 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7fe65bd66430>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fe62c2acd90>,), {})] Process died (Message: 'sectors')
+[2024-01-22 14:51:55,956 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7f4b325dd3a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7f4b04323d90>,), {})] Process died (Message: 'sectors')
+[2024-01-22 14:52:46,344 (/home/mm/ws/src/dal-server/utils/threadpool.py:24 - run())] ERROR -> [<function ProcessHandle.main at 0x7fb24780f3a0>((<DAL.RCS.processing_handle.ProcessHandle object at 0x7fb218555d90>,), {})] Process died (Message: 'sectors')
+[2024-01-22 15:31:37,509 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'location_id'

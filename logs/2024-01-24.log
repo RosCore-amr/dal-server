@@ -1,0 +1,12 @@
+[2024-01-24 09:28:29,777 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:28:45,942 (/home/mm/ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:30:17,905 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:30:19,404 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:30:19,989 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:30:20,502 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:31:28,424 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:31:42,242 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> ['Không được để trống timestamp']
+[2024-01-24 09:32:17,107 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: unsupported operand type(s) for +: 'NoneType' and 'str'
+[2024-01-24 09:33:21,531 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: unsupported operand type(s) for +: 'NoneType' and 'str'
+[2024-01-24 09:46:22,476 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'
+[2024-01-24 09:46:22,852 (/home/mm/amr_ws/src/dal-server/app/rest_api/__init__.py:214 - inner())] ERROR -> An error occurred: 'mission_code'

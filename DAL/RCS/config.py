@@ -68,6 +68,19 @@ class MissionStatus:
     PENDING = "pending"
 
 
+class Sectors:
+    OP_WH = "Pallet thành phẩm"
+    IP_CT = "Pallet carton"
+    IP_EMPTY = "Chồng pallet rỗng"
+
+
+class LocationStatus:
+    AVAILABLE = "available"
+    UNAVAILABLE = "unavailable"
+    FILL = "fill"
+    DISABLE = "disable"
+
+
 class DeviceControl:
     ON = 1
     OFF = 100

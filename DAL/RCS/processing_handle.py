@@ -9,7 +9,15 @@ from app.database.model.history import (
 )
 from app.database.model.setting import PRODUCT_TYPE
 from .config import RCS_TASK_CODE, RCS_PRIOR_CODE
-from .config import MainState, TaskStatus, SignalCallbox, MissionStatus, DeviceControl
+from .config import (
+    MainState,
+    TaskStatus,
+    SignalCallbox,
+    MissionStatus,
+    DeviceControl,
+    Sectors,
+    LocationStatus,
+)
 
 # from DAL.main import DALServer
 from flask import Flask
@@ -49,6 +57,7 @@ class ProcessHandle:
         self.__url_db = db_cfg["url"]
         self.__mission_history = db_cfg["mission_change"]
         self.__mission_info = db_cfg["mission_info"]
+        self.__location = db_cfg["location"]
 
         # Server Config
         self.__url_server = server_cfg["url"]
@@ -72,6 +81,7 @@ class ProcessHandle:
         self.__token_db = token_bearer
         self.__token_gw = token_base64
         self._cancel_programe = False
+        # self._op_wh = False
         self.__object_call = object_call
         self.rcs_task_id = ""
         self.line_to_confirm = ""
@@ -90,6 +100,7 @@ class ProcessHandle:
         _prev_state = MainState.NONE
         _processing_task = None
         _task_code = None
+        _op_wh = False
 
         while _state != MainState.NONE:
             if _state != _prev_state:
@@ -115,7 +126,6 @@ class ProcessHandle:
                 pass
 
             if _state == MainState.INIT:
-                # if not self.control_device(DeviceControl.OFF):
                 if self.__mission["mission_rcs"]:
                     _task_code = self.__mission["mission_rcs"]
                 if self.__mission["code"] == SignalCallbox.SIGN_SUCCESS:
@@ -129,10 +139,21 @@ class ProcessHandle:
                     _state = MainState.NONE
 
             elif _state == MainState.CREATE_TASK:
-                _path = [
-                    self.__mission["pickup_location"],
-                    self.__mission["return_location"],
-                ]
+                _path = []
+                self.__id_location = self.__mission["location_id"]
+                if self.__mission["sectors"] == Sectors.OP_WH:
+                    _op_wh = True
+                    # kho dau ra can
+                    _path = [
+                        self.__mission["pickup_location"],
+                        self.__mission["return_location"],
+                    ]
+                else:
+                    _op_wh = False
+                    _path = [
+                        self.__mission["pickup_location"],
+                        self.__mission["return_location"],
+                    ]
                 _task_code = self.sendTask(_path, RCS_TASK_CODE.UPSTAIR, False)
                 if _task_code is not None:
                     self.updateTaskMission(self.__mission_name, _task_code)
@@ -175,16 +196,23 @@ class ProcessHandle:
             elif _state == MainState.PROCESSING:
                 self.updateStatusMission(self.__mission_name, MissionStatus.PROCESS)
                 _processing_task = self.queryTaskStatus(_task_code, TaskStatus.COMPLETE)
-                sleep(4)
+                # sleep(4)
                 # print("_processing_task", _processing_task)
                 if _processing_task == TaskStatus.COMPLETE:
                     _state = MainState.DONE_PROCESS
 
             elif _state == MainState.DONE_PROCESS:
+                state_location_ = False
+                if _op_wh:
+                    state_location_ = self.location_update(LocationStatus.FILL)
+                else:
+                    state_location_ = self.location_update(LocationStatus.AVAILABLE)
+
                 if not self.updateStatusMission(
                     self.__mission_name, MissionStatus.DONE
                 ):
-                    _state = MainState.FINISH
+                    if state_location_:
+                        _state = MainState.FINISH
 
             elif _state == MainState.PROCESS_CANCEL:
                 if not _task_code:
@@ -364,6 +392,23 @@ class ProcessHandle:
                 return None
             print("response call_box_again", response)
             return response
+        except Exception as e:
+            return None
+
+    def location_update(self, status):
+        request_body = {"status": status}
+
+        try:
+            res = requests.patch(
+                self.__url_db + self.__location + self.__id_location,
+                headers=self.__token_db,
+                json=request_body,
+                timeout=3,
+            )
+            response = res.json()
+            if response["metaData"]["status"] != status:
+                return None
+            return True
         except Exception as e:
             return None
 
